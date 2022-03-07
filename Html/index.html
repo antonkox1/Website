@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>HTML</title>
+</head>
+
+<body>
+    <header class="tm-header"></header>
+    <main class="constructor">
+        <h1 > Справочник HTML от Антона</h1>
+        <h2 >Основные теги</h2>
+        <p class = "long_text">HTML (HyperText Markup Language) — язык для разметки гипертекста, он является набором правил, по которым браузер отличает заголовки от списков, таблицы от картинок и так далее. HTML появился в 1993 году и был призван стандартизировать правила для вывода текста внутри веб-страниц.</p>
+        <p>Тег &lt;p&gt является параграфом и добавляет отступы снизу и сверху</p>
+        <p>Тег &lt;script src="Путь к файлу(js/script.js)"&gt  подключается в конце перед закрывающим тегом /body</p>
+        <h2>Теги для запонения формы</h2>
+        <p>Тег &lt;form action="#" method="get"&gt,(get стоит по умолчанию) применяется для всего поля формы, чтобы отправить информацию на сервер </p>
+            <form action="#" method="get">
+            <p>Тег &lt;input type="text" placeholder="Напиши что-нибудь" name="", value=""&gt, значения name не должны повторяться (кроме типа radio)  </p>
+            <input type="text" placeholder="Напиши что-нибудь" name="", value=""><!-- placeholder добавляет надпись -->
+            <p>Тип radio:</p>
+            <p><input checked type="radio" name="code", value="Yes"> Кодить</p> <!-- checked отмечает сразу одно из значений -->
+            <p><input type="radio" name="code", value="No"> Не кодить</p>
+            <p>Тип checkbox:</p>
+            <p><input type="checkbox" name="skills", value="da"> Html</p>
+            <p><input type="checkbox" name="skills1", value="da"> CSS</p>
+            <p><input type="checkbox" name="skills2", value="da"> JavaScripts</p>
+            <p><input type="checkbox" name="skills3", value="da"> React</p>
+            <p>Тип file:</p>
+            <p><input type="file" name="photo"> </p>
+            <p>Тег &lt;textarea name=""&gt, для ввода большого текста</p>
+            <textarea name=""></textarea> 
+             <div>
+                 <select name="color" id="">
+                 <option value="red">Красный</option>
+                 <option value="blue">Синий</option>
+                 <option value="yellow">Желтый</option>
+                 </select>
+             </div>
+            </form>
+    </main>
+    
+</body>
+</html>
